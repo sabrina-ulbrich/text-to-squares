@@ -17,5 +17,9 @@ get '/' do
 end
 
 post '/' do
-  app = Application.new(params[:input]).render
+  Application.new(params[:input]).render
+end
+
+get '/:input' do
+  Application.new(params[:input]).render
 end

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'omniauth-twitter'
 
-# fpr twitter authorisation
+# for twitter authorisation
 
 gem 'rails', '3.2.3'
 
